@@ -450,7 +450,6 @@ span.glyphicon.glyphicon-signal {
 }
 
 .social-media-list li {
-  position: relative;
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -460,20 +459,6 @@ span.glyphicon.glyphicon-signal {
   color: #fff;
   background-color: rgb(27, 27, 27);
   cursor: pointer;
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 0 1px #fff;
   transition: all .2s ease-in-out;
 }
 
@@ -516,12 +501,6 @@ hr {
     width: 60px;
     line-height: 60px;
   }
-
-  .social-media-list li:after {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-  }
 }
 
 @media screen and (max-width: 569px) {
@@ -548,12 +527,6 @@ hr {
     font-size: 2rem;
   }
 
-  .social-media-list li:after {
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-  }
-
 }
 
 .footer-top .social-media-list {
@@ -564,11 +537,5 @@ hr {
   height: 20px;
   width: 20px;
   margin: 0px 3px;
-  line-height: 20px;
-}
-
-.footer-top .social-media-list li:after {
-  width: 20px;
-  height: 20px;
   line-height: 20px;
 }
